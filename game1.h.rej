@@ -1,0 +1,8 @@
+diff a/game1.h b/game1.h	(rejected hunks)
+@@ -0,0 +1,6 @@
++#ifndef GAME1_H
++#define GAME1_H
++
++void game_init();
++
++#endif // GAME1_H
