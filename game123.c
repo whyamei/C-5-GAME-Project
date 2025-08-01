@@ -7,7 +7,7 @@
 #include"game4.h"//包含小游戏4的头文件
 #include"game5.h"//包含小游戏5的头文件
 #include<time.h>
-
+#include<stdbool.h>//包含bool
 #define ROW 9  //显示的行
 #define COL 9  //显示的列
 #define ROWS ROW+2  //真实数组的行
@@ -390,7 +390,7 @@ static void game_3()
 	if(winnum == 0)//当安全地方为0时，证明排雷成功
 	{
 		printf("恭喜你排雷成功！\n");
-		Ptintinitialization(showmap, ROW, COL);//打印展示地图，让玩家知道自己获胜地图
+		Ptintinitialization_3(showmap, ROW, COL);//打印展示地图，让玩家知道自己获胜地图
 	}
 }
 
